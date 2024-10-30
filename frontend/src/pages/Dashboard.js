@@ -1,11 +1,11 @@
-import React from 'react'
 import SideBar from '../components/SideBar'
-
+import Content from "../components/Content";
 
 const Dashboard = () => {
   return (
-    <div className=' bg-dashboard-bg'>
+    <div className=' bg-dashboard-bg flex'>
     <SideBar/>
+    <Content/>
     </div>
   )
 }
