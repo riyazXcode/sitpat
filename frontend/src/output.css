@@ -608,6 +608,10 @@ video {
   right: 0px;
 }
 
+.left-3 {
+  left: 0.75rem;
+}
+
 .order-1 {
   order: 1;
 }
@@ -711,6 +715,15 @@ video {
 
 .w-14 {
   width: 3.5rem;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 .cursor-pointer {
@@ -827,6 +840,11 @@ video {
 .px-1\.5 {
   padding-left: 0.375rem;
   padding-right: 0.375rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pb-2 {
