@@ -1,5 +1,9 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
+import UpdateStudentDetails from "../pages/main_pages/UpdateStudentDetails";
+import ViewStudentDatabase from "../pages/main_pages/ViewStudentDatabase";
+import DeleteStudentDetails from "../pages/main_pages/DeleteStudentDetails";
+import AddStudentDetails from "../pages/main_pages/AddStudentDetails";
 
 const Content = () => {
     const selectedItem = useSelector((state) => state.sidebar.selectedItem);  // Access selectedItem from Redux
@@ -7,13 +11,13 @@ const Content = () => {
     const renderContent = () => {
         switch (selectedItem) {
             case 'Add Student Details':
-                return <div>Add Student Details Form</div>;
+                return <AddStudentDetails/>
             case 'Delete Student Details':
-                return <div>Delete Student Details Content</div>;
+                return <DeleteStudentDetails/>;
             case 'Update Student Details':
-                return <div>Update Student Details Form</div>;
+                return <UpdateStudentDetails/>;
             case 'View Student Database':
-                return <div>View Student Database Content</div>;
+                return <ViewStudentDatabase/>;
             case 'Add Placement Training':
                 return <div>Add Placement Training Form</div>;
             case 'Delete Placement Training':
