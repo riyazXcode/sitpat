@@ -6,7 +6,7 @@ const Header = () => {
         <div className='block bg-main-cyan-green h-[8%]'>
             <div className='flex flex-row-reverse h-full w-full pr-2'>
                 <button className='right-0'>
-                    <CircleUser size={40} color='#1f6793' />
+                    <CircleUser size={40} color='white' b/>
                 </button>
             </div>
         </div>
